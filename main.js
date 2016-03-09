@@ -43,18 +43,7 @@
 
 // 11. Develop a function that determines a person's age by prompting them for their birth year.
 
-// 12. Write a function that takes a year and reports whether or not it is a leap year.
-//     Remember, a leap year occurs:
-//        On every year that is evenly divisible by 4
-//        Except every year that is evenly divisible by 100
-//        Unless the year is also evenly divisible by 400
-//        For example, 1997 is not a leap year, but 1996 is.  1900 is not a leapyear, but 2000 is
+// 12. Create a function called "newPerson". The function takes in a first name, last name, phone number and address. Output an object with all of this information, and push it into an array.
 
-// 13. Develop a function that cleans up a phone number entered by a user.
-//     The rules are as follows:
-//        If the phone number is less than 10 digits assume that it is bad number
-//        If the phone number is 10 digits assume that it is good
-//        If the phone number is 11 digits and the first number is 1, trim the 1 and use the last 10 digits
-//        If the phone number is 11 digits and the first number is not 1, then it is a bad number
-//        If the phone number is more than 11 digits assume that it is a bad number
+// 13. Using the function above, create a function that will loop through an array of objects and return only the first name and the phone number of each person in the array
 
