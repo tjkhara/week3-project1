@@ -58,16 +58,3 @@
 //        If the phone number is 11 digits and the first number is not 1, then it is a bad number
 //        If the phone number is more than 11 digits assume that it is a bad number
 
-// 14. Create a function that determines whether a parameter is a number or not (Hint: google "isNan")
-//     Iterate over the elements in the following array to determine if each is a number.
-       arrayOfAllTheThings = ["one", 23, {thingsWhalesLove: "beaches"}, "six hundred", 33, 6834, "5,435"]
-
-// 15. Create a die rolling function that accepts two parameters (the two six-sided dice) and outputs an array of the two values rolled.
-
-// 16. Create another fuction called "whichSide". It will accept the array from above as it's only parameter.
-//     This function will mimic a Monopoly board. Start playerOne at the Go space (0) and add the two values from your die array to determine
-//     how many spaces the player will move. Log to the console which side of the board the player is on.
-//     Hint: each side has 11 spaces. You can call the sides of the board: north, east, south, west or top, right, bottom, left.
-
-// 17. Using the game above, use the same function(s) and add additional code to determine if the player is on a corner spot.
-//     Log to the console which corner the player is located.
