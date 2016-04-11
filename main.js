@@ -15,15 +15,6 @@
 
 // 5. Define a function called "quarter". It accepts one parameter called "number".
 //    The function will return a value which is one quarter of the number provided.
-//    Call the function inside of a conditional statement that prints one statement if the value is even or another statement if the value is odd.
-//    In pseudocode:
-//                  defining my function here(parameter)
-//                      returns a value that divides that parameter by 4
-//
-//                  if (calling the function with parameter divided by 2 is even)
-//                      print out a statement saying the number is even
-//                  else
-//                      print out a statement saying the number is odd
 
 // 6. Define functions called "area" and "perimeter". They should both accept two parameters and calculate the area and perimeter of a rectangle.
 
@@ -31,43 +22,39 @@
 //    Write a conditional statement inside of the function. If the number of hours is more than 8, print a statement to the console about getting enough rest.
 //    If the number of hours is less than 8, print a statement recommending the user get more shut eye.
 
-// 8. Prompt a user to enter a six digit number. Write a function that reverses the number.
-//    (Hint, you will have to turn the integer into a string before you can reverse it.)
+// 8. Prompt a user to enter a three digit number. Write a function that adds the numbers together.
+//    HINT: You may need to google how to turn a string into an integer.
 
-// 9. Within the fuction you wrote in #7, write a conditional statement that checks to ensure the user entered a six digit integer.
-//    If they have not entered a six digit integer, give them a message about being a failure.
-
-// 10. You've finally gotten around to counting the change in your piggy bank. Write a function that accepts four parameters (quarters, dimes, nickels, and pennies).
+// 9. You've finally gotten around to counting the change in your piggy bank. Write a function that accepts four parameters (quarters, dimes, nickels, and pennies).
 //     The function should take each number of coins and multiply it times each coin's value.
 //     Finally, it should return the total amount of change you have in the following format: "$32.77"
+//     HINT: Googling the toFixed method will help you with the format.
 
-// 11. Develop a function that determines a person's age by prompting them for their birth year.
+// 10. Develop a function that determines a person's age by prompting them for their birth year.
 
-// 12. Write a function that takes a year and reports whether or not it is a leap year.
+// 11. Write a function that takes a year and reports whether or not it is a leap year.
 //     Remember, a leap year occurs:
 //        On every year that is evenly divisible by 4
 //        Except every year that is evenly divisible by 100
 //        Unless the year is also evenly divisible by 400
-//        For example, 1997 is not a leap year, but 1996 is.  1900 is not a leapyear, but 2000 is
+//        For example, 1997 is not a leap year, but 1996 is.  1900 is not a leapyear, but 2000 is.
 
-// 13. Develop a function that cleans up a phone number entered by a user.
+// 12. Develop a function that cleans up a phone number entered by a user.
 //     The rules are as follows:
-//        If the phone number is less than 10 digits assume that it is bad number
+//        If the phone number is less than 10 digits or more than 11 digits, assume that it is bad number
 //        If the phone number is 10 digits assume that it is good
 //        If the phone number is 11 digits and the first number is 1, trim the 1 and use the last 10 digits
-//        If the phone number is 11 digits and the first number is not 1, then it is a bad number
-//        If the phone number is more than 11 digits assume that it is a bad number
+//        If the phone number is 11 digits and the first number is not 1, then it is a bad number.
+//        HINT: You may need to use the charAt method.
 
-// 14. Create a function that determines whether a parameter is a number or not (Hint: google "isNan")
+// 13. Create a function that determines whether a parameter is a number or not.
 //     Iterate over the elements in the following array to determine if each is a number.
+//     HINT: You may need to use the isNaN method.
        arrayOfAllTheThings = ["one", 23, {thingsWhalesLove: "beaches"}, "six hundred", 33, 6834, "5,435"]
 
-// 15. Create a die rolling function that accepts two parameters (the two six-sided dice) and outputs an array of the two values rolled.
+// 14. Create a die rolling function that accepts no parameters.
+//     It rolls two six-sided-dice, adds the two numbers together, and returns a roll value.
+//     To get the random number rolled by each die, use Math.random and Math.floor.
 
-// 16. Create another fuction called "whichSide". It will accept the array from above as it's only parameter.
-//     This function will mimic a Monopoly board. Start playerOne at the Go space (0) and add the two values from your die array to determine
-//     how many spaces the player will move. Log to the console which side of the board the player is on.
-//     Hint: each side has 11 spaces. You can call the sides of the board: north, east, south, west or top, right, bottom, left.
-
-// 17. Using the game above, use the same function(s) and add additional code to determine if the player is on a corner spot.
-//     Log to the console which corner the player is located.
+// 15. Using your die roll function above, figure out how many times it would take a user
+//     to get around a Monopoly board once. A monopoly board has 40 spaces total.
