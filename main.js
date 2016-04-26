@@ -33,14 +33,8 @@
 
 // 10. Develop a function that determines a person's age by prompting them for their birth year.
 
-// 11. Write a function that takes a year and reports whether or not it is a leap year.
-//     Remember, a leap year occurs:
-//        On every year that is evenly divisible by 4
-//        Except every year that is evenly divisible by 100
-//        Unless the year is also evenly divisible by 400
-//        For example, 1997 is not a leap year, but 1996 is.  1900 is not a leapyear, but 2000 is.
 
-// 12. Develop a function that cleans up a phone number entered by a user.
+// 11. Develop a function that cleans up a phone number entered by a user.
 //     The rules are as follows:
 //        If the phone number is less than 10 digits or more than 11 digits, assume that it is bad number
 //        If the phone number is 10 digits assume that it is good
@@ -48,14 +42,22 @@
 //        If the phone number is 11 digits and the first number is not 1, then it is a bad number.
 //        HINT: You may need to use the charAt method.
 
-// 13. Create a function that determines whether a parameter is a number or not.
+// 12. Create a function that determines whether a parameter is a number or not.
 //     Iterate over the elements in the following array to determine if each is a number.
 //     HINT: You may need to use the isNaN method.
        arrayOfAllTheThings = ["one", 23, {thingsWhalesLove: "beaches"}, "six hundred", 33, 6834, "5,435"]
 
-// 14. Create a die rolling function that accepts no parameters.
+// 13. Create a die rolling function that accepts no parameters.
 //     It rolls two six-sided-dice, adds the two numbers together, and returns a roll value.
 //     To get the random number rolled by each die, use Math.random and Math.floor.
 
-// 15. Using your die roll function above, figure out how many times it would take a user
+// 14. Using your die roll function above, figure out how many times it would take a user
 //     to get around a Monopoly board once. A monopoly board has 40 spaces total.
+
+// Extra Challenge: 
+// 15. Write a function that takes a year and reports whether or not it is a leap year.
+//     Remember, a leap year occurs:
+//        On every year that is evenly divisible by 4
+//        Except every year that is evenly divisible by 100
+//        Unless the year is also evenly divisible by 400
+//        For example, 1997 is not a leap year, but 1996 is.  1900 is not a leapyear, but 2000 is.
