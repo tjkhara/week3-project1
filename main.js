@@ -23,7 +23,8 @@
 //    If the number of hours is less than 8, print a statement recommending the user get more shut eye.
 
 // 8. Prompt a user to enter a three digit number. Write a function that adds the numbers together.
-//    HINT: You may need to google how to turn a string into an integer.
+//    HINT: You may need to google how to turn a string into an integer. 
+//          Note: Strings can be treated as arrays too.
 
 // 9. You've finally gotten around to counting the change in your piggy bank. Write a function that accepts four parameters (quarters, dimes, nickels, and pennies).
 //     The function should take each number of coins and multiply it times each coin's value.
