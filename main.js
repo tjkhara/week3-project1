@@ -1,4 +1,24 @@
-// JavaScript Function Exercises
+/*
+=======================================================
+
+** Week 3 - Project 1 **
+*** Function Exercises ***
+
+Below are a number of problems for you to solve
+using JS. The JS code can be written below each
+problem and the result can be logged to the console.
+
+In order to make the results easy to read,
+please use console.log("Question #") to declare the
+problem number being solved followed by console.log(yourAnswer) after each question.
+
+For any methods that we didn't cover, please refer to the Functions Documentation.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+
+BASIC TRACK: 1-10
+ADVANCED TRACK: 11-15
+=======================================================
+*/
 
 // 1. Define a function called "divideByTwo". It should accept one parameter called "number".
 //    The function should divide the number by two and output the answer.
@@ -23,8 +43,8 @@
 //    If the number of hours is less than 8, print a statement recommending the user get more shut eye.
 
 // 8. Prompt a user to enter a three digit number. Write a function that adds the numbers together.
-//    HINT: You may need to google how to turn a string into an integer. 
-//          Note: Strings can be treated as arrays too.
+//    HINT: You may need to google how to turn a string into an integer.
+//    Note: Strings can be treated as arrays too.
 
 // 9. You've finally gotten around to counting the change in your piggy bank. Write a function that accepts four parameters (quarters, dimes, nickels, and pennies).
 //     The function should take each number of coins and multiply it times each coin's value.
@@ -34,6 +54,7 @@
 // 10. Develop a function that determines a person's age by prompting them for their birth year.
 
 
+// ADVANCED TRACK
 // 11. Develop a function that cleans up a phone number entered by a user.
 //     The rules are as follows:
 //        If the phone number is less than 10 digits or more than 11 digits, assume that it is bad number
@@ -47,14 +68,13 @@
 //     HINT: You may need to use the isNaN method.
        arrayOfAllTheThings = ["one", 23, {thingsWhalesLove: "beaches"}, "six hundred", 33, 6834, "5,435"]
 
-// 13. Create a die rolling function that accepts no parameters.
+// 13. Using your die roll function above, figure out how many times it would take a user
+//     to get around a Monopoly board once. A monopoly board has 40 spaces total.
+
+// 14. Create a die rolling function that accepts no parameters.
 //     It rolls two six-sided-dice, adds the two numbers together, and returns a roll value.
 //     To get the random number rolled by each die, use Math.random and Math.floor.
 
-// 14. Using your die roll function above, figure out how many times it would take a user
-//     to get around a Monopoly board once. A monopoly board has 40 spaces total.
-
-// Extra Challenge: 
 // 15. Write a function that takes a year and reports whether or not it is a leap year.
 //     Remember, a leap year occurs:
 //        On every year that is evenly divisible by 4
