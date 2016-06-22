@@ -68,12 +68,12 @@ ADVANCED TRACK: 11-15
 //     HINT: You may need to use the isNaN method.
        arrayOfAllTheThings = ["one", 23, {thingsWhalesLove: "beaches"}, "six hundred", 33, 6834, "5,435"]
 
-// 13. Using your die roll function above, figure out how many times it would take a user
-//     to get around a Monopoly board once. A monopoly board has 40 spaces total.
-
-// 14. Create a die rolling function that accepts no parameters.
+// 13. Create a die rolling function that accepts no parameters.
 //     It rolls two six-sided-dice, adds the two numbers together, and returns a roll value.
 //     To get the random number rolled by each die, use Math.random and Math.floor.
+
+// 14. Using your die roll function above, figure out how many times it would take a user
+//     to get around a Monopoly board once. A monopoly board has 40 spaces total.
 
 // 15. Write a function that takes a year and reports whether or not it is a leap year.
 //     Remember, a leap year occurs:
