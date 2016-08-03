@@ -23,20 +23,105 @@ ADVANCED TRACK: 11-15
 // 1. Define a function called "divideByTwo". It should accept one parameter called "number".
 //    The function should divide the number by two and output the answer.
 
+console.log("\nQuestion1\n");
+
+// 1. Define a function called "divideByTwo". It should accept one parameter called "number".
+//    The function should divide the number by two and output the answer.
+
+function divideByTwo(number) {
+	var output = number/2;
+	console.log(output);
+}
+
+divideByTwo(10);
+
+
+
 // 2. Define a function called "greeting". It should accept two parameters, which will be names.
 //    The function should output the a greeting to both people.
 
+console.log("\nQuestion2\n");
+
+// 2. Define a function called "greeting". It should accept two parameters, which will be names.
+//    The function should output the a greeting to both people.
+
+function greeting(name1, name2) {
+	console.log("Hello " + name1 + " and " + name2);
+}
+
+greeting("Joshua","TJ");
+
+
 // 3. You use Amazon Subscribe & Save to have six cans of cashews automatically sent to you each month, but the price keeps changing.
 //    Write a function that takes the price per unit and calculates the total for you each month.
+
+console.log("\nQuestion3\n");
+
+// 3. You use Amazon Subscribe & Save to have six cans of cashews automatically sent to you each month, but the price keeps changing.
+//    Write a function that takes the price per unit and calculates the total for you each month.
+
+function priceCalc (pricePerUnit) {
+	
+	var total;
+	total = pricePerUnit * 6;
+	return total;
+	
+}
+
+console.log(priceCalc(23));
+
 
 // 4. Write a function that accepts the following array and separates the people into two teams.
 //    No names next to eachother in the array should be on the same team.
       teammates = ["Harold", "Bob", "Sue", "Grady", "Notorious B.I.G.", "JavaCrypt", "Weird guy in the back", "Gary", "Carol", "Hipster Tim", "Janet"]
 
+// 4. Write a function that accepts the following array and separates the people into two teams.
+//    No names next to eachother in the array should be on the same team.
+
+teammates = ["Harold", "Bob", "Sue", "Grady", "Notorious B.I.G.", "JavaCrypt", "Weird guy in the back", "Gary", "Carol", "Hipster Tim", "Janet"]
+      
+function separate(array) {
+	var teamA = [];
+	var teamB = [];
+	
+	for(i=0; i<array.length; i++) {
+		
+		if(i%2 === 0) {
+		teamA.push(array[i]);
+		} else {
+		teamB.push(array[i]);
+		}
+		
+	}
+	
+	console.log (teamA,teamB);
+}
+
+separate(teammates);
+
+
+
 // 5. Define a function called "quarter". It accepts one parameter called "number".
 //    The function will return a value which is one quarter of the number provided.
 
+console.log("\nQuestion5\n");
+
+// 5. Define a function called "quarter". It accepts one parameter called "number".
+//    The function will return a value which is one quarter of the number provided.
+
+function quarter(number) {
+	var oneQuarter;
+	oneQuarter = number/4;
+	return oneQuarter;
+}
+
+console.log(quarter(10));
+
+
 // 6. Define functions called "area" and "perimeter". They should both accept two parameters and calculate the area and perimeter of a rectangle.
+
+
+
 
 // 7. Write a function called "sleepings", it should accept one parameter, an integer called "hours".
 //    Write a conditional statement inside of the function. If the number of hours is more than 8, print a statement to the console about getting enough rest.
